@@ -29,7 +29,7 @@ public class ExternalSavingExample extends AppCompatActivity {
         textView = findViewById(R.id.textToSave);
 
         //used for folder inside Android/data/data/application_package/
-        //gets delided when app is unistalled
+        //gets del when app is uninstalled
         externalFile = new File(getExternalFilesDir(FILE_PATH),FILE_NAME);
 
     }
